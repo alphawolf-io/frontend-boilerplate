@@ -1,22 +1,16 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a template to bootstrap a frontend project using [Next.js](https://nextjs.org/) + [MUI](https://mui.com/)
 
 ## Getting Started
 
-First, run the development server:
+This repo isn't for using directly. You need to run the command below to create a new Nextjs app with the template defined in the repo.
 
 ```bash
-npm run dev
-# or
-yarn dev
+yarn create next-app -e https://github.com/alphawolf-io/frontend-boilerplate
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## What is in this template
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+TBD
 
 ## Learn More
 
