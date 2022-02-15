@@ -1,6 +1,6 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import Image from 'next/image';
+import { Box, Typography } from '@mui/material';
 
 const Home: NextPage = () => {
   return (
@@ -11,9 +11,14 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
-        <h1>Hello from Next Boilerplate</h1>
-      </main>
+      <Box component="main">
+        <Typography variant="h1" sx={{ fontSize: (theme) => theme.typography.pxToRem(32) }}>
+          Hello from Next Boilerplate
+        </Typography>
+        <Typography variant="body1" sx={{ fontFamily: 'soup of justice' }}>
+          Let kick off your project
+        </Typography>
+      </Box>
     </div>
   );
 };
